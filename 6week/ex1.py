@@ -6,7 +6,7 @@ import matplotlib.font_manager as font_manger
 hat = pd.read_csv('ch4-2.csv')
 print(hat.describe(), end="\n\n")
 
-font_path = "malgun.ttf"
+font_path = "C:/Windows/Fonts/malgun.ttf" 
 font_name = font_manger.FontProperties(fname=font_path).get_name()
 plt.rc('font', family=font_name)
 
